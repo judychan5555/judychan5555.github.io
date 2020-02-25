@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap');
+/*google font
+https://fonts.google.com/specimen/Nunito+Sans?selection.family=Nunito+Sans:300,400,600,700,800,900
+*/
+
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*all*/
+html body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+	color: #1C1C1E;
+}
+h1 {
+	font-weight: 700;
+	color: #1C1C1E;
+	font-size: 36px;
+    text-align: left;
+    line-height: 40px;
+}
+h2 {
+	font-weight: 700;
+	color: #4A4A4A;
+	font-size: 24px;
+	line-height: 24px;
+}
+h3 {
+	color: #4A4A4A;
+	font-size: 18px;
+	line-height: 26px;
+}
+h4 {
+	font-weight: 700;
+	color: #00CDA1;
+	font-size: 18px;
+	line-height: 40px;
+}
+h5 {
+	color: #CCCCCC;
+	font-size: 15px;
+}
+a {
+	color: #1C1C1E;
+	font-size: 16px;
+	display: block;
+}
+p {
+	color: #1C1C1E;
+	font-size: 14px;
+	line-height: 18px;
+}
+.clearfix {
+	clear: both;
+}
+
+/*All-RWD*/
+@media (max-width:900px){
+    h1 {
+        font-size:32px;
+    }
+    h3 {
+        font-size:16px;
+        line-height: 22px;
+    }
+}
+
+.mu_context {
+	background: url(../pic/mu_context_bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.mu_context_1024 {
+	display: none;
+}
+.mu_context_1440 {
+	margin-bottom: -3px;
+	width: 1024px;
+	margin: 0 auto;
+}
+.mu_context_1440 img {
+	margin-bottom: -3px;
+}
+@media(max-width:1024px) {
+	.mu_context {
+		background: none;
+	}
+	.mu_context_1024 {
+		display: block;
+	}
+	.mu_context_1440 {
+		display: none;
+	}
+}
+
+/*mu_main*/
+.mu_main_text {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #FAFAFA;
+}
+.mu_main_text h1, .mu_main_text h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mu_main_text h3 {
+    margin-bottom: 20px;
+}
+.mu_main_text img {
+    display: table-cell;
+	margin: 0 auto 21px auto;
+}
+.mu_main_text_mu img {
+	box-shadow: 0 0 10px rgba(166, 166, 166, 0.5);
+	border-radius: 21px;
+}
+.mu_main_pic {
+	max-width: 1024px;
+	margin: 30px auto 130px auto;
+}
+
+
+
