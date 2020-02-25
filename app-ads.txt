@@ -1,0 +1,19 @@
+#Admob
+
+google.com, pub-3621577134653352, DIRECT, f088c47fec942fa0
+google.com, pub-5441234204901186, DIRECT, f088c47fec942fa0
+
+#Applovin
+
+applovin.com, 180185e218809a263c437ba7f2048217, DIRECT
+adcolony.com, 5d8cbf6671c93a42, RESELLER, 1ad675c9de6b5176
+rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
+
+#MoPub
+
+mopub.com, f271360970f5448288415511b91ad0bc, DIRECT, 74b46c0ea83967ca
+
+#A4G
+
+a4g.com, 2775364, DIRECT
+google.com, pub-1232265399417302, RESELLER
